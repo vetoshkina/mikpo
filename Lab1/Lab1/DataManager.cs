@@ -39,7 +39,7 @@ namespace Lab1
                     solve = new Solve(read);
                     solve.Calculate();
                     Console.WriteLine(String.Format("Line {0}: Beta = {1}; Gamma = {2}", i, solve.Beta, solve.Gamma));
-                    buffer.Add(String.Format("{0};{1};{2};", solve.A, solve.B, solve.C));
+                    buffer.Add(String.Format("{0};{1};{2}", solve.A, solve.B, solve.C));
                     if (buffer.Count == 100)
                     {
                         foreach (string s in buffer)
@@ -51,10 +51,15 @@ namespace Lab1
                 {
                     Console.WriteLine(String.Format("Line {0}: {1}", i, de.Message));
                 }
+                catch (ArgumentException ae)
+                {
+                    Console.WriteLine(String.Format("Line {0}: Error! Need three arguments!", i));
+                }
                 catch (Exception e)
                 {
                     Console.WriteLine(String.Format("Line {0}: {1}", i, e.Message));
                 }
+                
             }
             foreach (string s in buffer)
                 sw.WriteLine(s);

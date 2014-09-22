@@ -105,19 +105,23 @@ namespace Lab1
         }
 
 
-        public Solve(string s) //Поковыряйся тут! Exceptions стандартные, пустая строка, разные разделители, лишние пробелы и прочие прелести ручного ввода.
+        public Solve(string s)
         {
             s = s.Replace(" ","");
+            s = s.Replace(".", ",");
             string[] data = s.Split(new char[] { ';' });
             if (data.Length == 3)
                 for (int i = 0; i < 3; i++)
                 {
+                    if (data[i] == "") throw new ArgumentException();
                     double buf = -1;
-                    double.TryParse(data[i], out buf);
+                    bool res = double.TryParse(data[i], out buf);
                     if (i == 0) A = buf;
                     if (i == 1) B = buf;
                     if (i == 2) Alpha = buf;
                 }
+            else
+                throw new ArgumentException();
         }
 
         public double GetSide()

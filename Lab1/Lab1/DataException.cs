@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Lab1
 {
-    class DataException : Exception
+    public class DataException : Exception
     {
         public DataException(string message) : base(message) { }
     }

@@ -5,3 +5,10 @@ C:\Users\Мила\Desktop\Например\mikpo\Lab1\FirstTest\bin\Debug\Lab1.e
 C:\Users\Мила\Desktop\Например\mikpo\Lab1\FirstTest\bin\Debug\Lab1.pdb
 C:\Users\Мила\Desktop\Например\mikpo\Lab1\FirstTest\obj\Debug\FirstTest.dll
 C:\Users\Мила\Desktop\Например\mikpo\Lab1\FirstTest\obj\Debug\FirstTest.pdb
+C:\Users\eugene\MIKPO\Lab1\FirstTest\bin\Debug\FirstTest.dll
+C:\Users\eugene\MIKPO\Lab1\FirstTest\bin\Debug\FirstTest.pdb
+C:\Users\eugene\MIKPO\Lab1\FirstTest\bin\Debug\Lab1.exe
+C:\Users\eugene\MIKPO\Lab1\FirstTest\bin\Debug\Lab1.pdb
+C:\Users\eugene\MIKPO\Lab1\FirstTest\obj\Debug\FirstTest.csprojResolveAssemblyReference.cache
+C:\Users\eugene\MIKPO\Lab1\FirstTest\obj\Debug\FirstTest.dll
+C:\Users\eugene\MIKPO\Lab1\FirstTest\obj\Debug\FirstTest.pdb
