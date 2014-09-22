@@ -6,7 +6,7 @@ using System.IO;
 
 namespace Lab1
 {
-    class DataManager
+    public class DataManager
     {
 
         string _inPath;

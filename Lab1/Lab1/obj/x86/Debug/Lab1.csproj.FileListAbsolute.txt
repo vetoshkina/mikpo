@@ -15,3 +15,7 @@ C:\Users\Мила\Desktop\MIKPO-master\Lab1\Lab1\obj\x86\Debug\Lab1.pdb
 C:\Users\Мила\Desktop\MIKPO-master\Lab1\Lab1\bin\Debug\Lab1.exe
 C:\Users\Мила\Desktop\MIKPO-master\Lab1\Lab1\bin\Debug\Lab1.pdb
 C:\Users\Мила\Desktop\MIKPO-master\Lab1\Lab1\obj\x86\Debug\Lab1.csprojResolveAssemblyReference.cache
+C:\Users\Мила\Desktop\Например\mikpo\Lab1\Lab1\obj\x86\Debug\Lab1.exe
+C:\Users\Мила\Desktop\Например\mikpo\Lab1\Lab1\obj\x86\Debug\Lab1.pdb
+C:\Users\Мила\Desktop\Например\mikpo\Lab1\Lab1\bin\Debug\Lab1.exe
+C:\Users\Мила\Desktop\Например\mikpo\Lab1\Lab1\bin\Debug\Lab1.pdb

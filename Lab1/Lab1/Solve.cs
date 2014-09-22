@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Lab1
 {
-    class Solve
+    public class Solve
     {
         double _a;
         double _b;
@@ -105,12 +105,12 @@ namespace Lab1
         }
 
 
-        public Solve(string s)
+        public Solve(string s) //Поковыряйся тут! Exceptions стандартные, пустая строка, разные разделители, лишние пробелы и прочие прелести ручного ввода.
         {
             s = s.Replace(" ","");
             string[] data = s.Split(new char[] { ';' });
             if (data.Length == 3)
-                for (int i = 0; i < 3;i++)
+                for (int i = 0; i < 3; i++)
                 {
                     double buf = -1;
                     double.TryParse(data[i], out buf);
