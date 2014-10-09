@@ -1,0 +1,13 @@
+c:\users\eugene\documents\visual studio 2013\Projects\median filter\median filter\bin\Debug\median filter.exe.config
+C:\Users\eugene\MIKPO\median filter\median filter\bin\Debug\median filter.exe.config
+C:\Users\eugene\MIKPO\median filter\median filter\bin\Debug\median filter.exe
+C:\Users\eugene\MIKPO\median filter\median filter\bin\Debug\median filter.pdb
+C:\Users\eugene\MIKPO\median filter\median filter\obj\Debug\median filter.csprojResolveAssemblyReference.cache
+C:\Users\eugene\MIKPO\median filter\median filter\obj\Debug\median filter.exe
+C:\Users\eugene\MIKPO\median filter\median filter\obj\Debug\median filter.pdb
+C:\Users\Мила\Desktop\median filter\median filter\bin\Debug\median filter.exe.config
+C:\Users\Мила\Desktop\median filter\median filter\obj\Debug\median filter.exe
+C:\Users\Мила\Desktop\median filter\median filter\obj\Debug\median filter.pdb
+C:\Users\Мила\Desktop\median filter\median filter\obj\Debug\median filter.csprojResolveAssemblyReference.cache
+C:\Users\Мила\Desktop\median filter\median filter\bin\Debug\median filter.exe
+C:\Users\Мила\Desktop\median filter\median filter\bin\Debug\median filter.pdb
