@@ -1,0 +1,12 @@
+D:\Учеба\9 семестр\МиКПО\queues\queues\bin\Debug\queues.exe.config
+D:\Учеба\9 семестр\МиКПО\queues\queues\bin\Debug\queues.exe
+D:\Учеба\9 семестр\МиКПО\queues\queues\bin\Debug\queues.pdb
+D:\Учеба\9 семестр\МиКПО\queues\queues\obj\Debug\queues.csprojResolveAssemblyReference.cache
+D:\Учеба\9 семестр\МиКПО\queues\queues\obj\Debug\queues.exe
+D:\Учеба\9 семестр\МиКПО\queues\queues\obj\Debug\queues.pdb
+C:\Users\eugene\Desktop\queues\queues\bin\Debug\queues.exe.config
+C:\Users\eugene\Desktop\queues\queues\obj\Debug\queues.exe
+C:\Users\eugene\Desktop\queues\queues\obj\Debug\queues.pdb
+C:\Users\eugene\Desktop\queues\queues\bin\Debug\queues.exe
+C:\Users\eugene\Desktop\queues\queues\bin\Debug\queues.pdb
+C:\Users\eugene\Desktop\queues\queues\obj\Debug\queues.csprojResolveAssemblyReference.cache

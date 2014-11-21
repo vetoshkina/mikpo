@@ -1,0 +1,46 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Threading;
+
+namespace queues
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            if(args.Count()!=5)
+            {
+                Console.WriteLine("Not enough arguments!");
+                return;
+            }
+            int countcashes = 0;
+            int countcars = 0;
+            int alltime = 0;
+            int mintime = 0;
+            int maxtime = 0;
+            int carperiod = 1000;
+            try
+            {
+                countcashes = int.Parse(args[0]);
+                countcars = int.Parse(args[1]);
+                alltime = Convert.ToInt32(Math.Round(double.Parse(args[2]) * 1000));
+                mintime = Convert.ToInt32(Math.Round(double.Parse(args[3]) * 1000));
+                maxtime = Convert.ToInt32(Math.Round(double.Parse(args[4]) * 1000));
+            }
+            catch
+            {
+                Console.WriteLine("Wrong arguments!");
+                return;
+            }
+
+            List<Cash> cashes = new List<Cash>();
+            for (int i = 0; i < countcashes; i++)
+                cashes.Add(new Cash(mintime, maxtime));
+            Adder adder = new Adder(carperiod, countcars, cashes);
+
+        }
+    }
+}

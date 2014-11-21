@@ -1,0 +1,78 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Threading;
+
+namespace queues
+{
+    class Cash
+    {
+
+        private int _cServed;
+        private bool _isWorking;
+        private int _minServeTime;
+        private int _maxServeTime;
+
+        #region Properties
+        public int CountServed
+        {
+            get { return _cServed; }
+            set { _cServed = value > 0 ? value : 0; }
+        }
+
+        public bool IsWorking
+        {
+            get { return _isWorking; }
+            set { _isWorking = value; }
+        }
+
+        public int MinServeTime
+        {
+            get { return _minServeTime; }
+            set { _minServeTime = value > 10 ? value : 10; }
+        }
+
+        public int MaxServeTime
+        {
+            get { return _maxServeTime; }
+            set { _maxServeTime = value > 10 && value > MinServeTime ? value : MinServeTime; }
+        }
+
+        #endregion
+
+        public Queue<int> Queue;
+
+        public Cash(int MinTime, int MaxTime)
+        {
+            MinServeTime = MinTime;
+            MaxServeTime = MaxTime;
+            Queue = new Queue<int>();
+        }
+
+        public void Start()
+        {
+            IsWorking = true;
+            while(IsWorking)
+            {
+                Random rTime = new Random();
+                while (Queue.Count == 0)
+                {
+                    Thread.Sleep(10);
+                    if (!IsWorking)
+                        return;
+                }
+
+                int sleeptime = rTime.Next(MinServeTime, MaxServeTime);
+                Thread.Sleep(sleeptime);
+
+                if (IsWorking)
+                    CountServed += Queue.Dequeue();
+                else
+                    break;
+            }
+        }
+
+    }
+}

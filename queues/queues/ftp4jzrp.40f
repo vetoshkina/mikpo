@@ -1,0 +1,37 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace queues
+{
+    class Cash
+    {
+        private int _cServed;
+        private bool _isWorking;
+        private int _minServeTime;
+        private int _maxServeTime;
+
+        public int CountServed
+        {
+            get { return _cServed; }
+            set { _cServed = value > 0 ? value : 0; }
+        }
+
+        public bool IsWorking
+        {
+            get { return _isWorking; }
+            set { _isWorking = value; }
+        }
+
+        public int MinServeTime
+        {
+            get { return _minServeTime; }
+            set { _minServeTime = value > 10 ? value : 10; }
+        }
+        public List<int> queue;
+
+
+    }
+}
